@@ -543,6 +543,22 @@
       "url": "https://github.com/elixir-tools/elixir-tools.nvim/archive/57dccf3d0cfc1c09c5a0d71765fc275a4a008c00.tar.gz",
       "hash": "sha256-kO/1zV1OxCl43+9joMQdnqoiLuThbm+ymwT7FOZmZBE="
     },
+    "ergoterm-nvim": {
+      "type": "GitRelease",
+      "repository": {
+        "type": "GitHub",
+        "owner": "waiting-for-dev",
+        "repo": "ergoterm.nvim"
+      },
+      "pre_releases": false,
+      "version_upper_bound": null,
+      "release_prefix": null,
+      "submodules": false,
+      "version": "v1.2.0",
+      "revision": "fb84b547119307b2889706d749097dc41a7904aa",
+      "url": "https://api.github.com/repos/waiting-for-dev/ergoterm.nvim/tarball/refs/tags/v1.2.0",
+      "hash": "sha256-bJrk2cDZ+Egkrfa/V2a30wwXGx2AwO/hCwqEse64Vug="
+    },
     "everforest": {
       "type": "GitRelease",
       "repository": {

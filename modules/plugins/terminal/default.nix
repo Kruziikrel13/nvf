@@ -1,5 +1,6 @@
 {
   imports = [
     ./toggleterm
+    ./ergoterm
   ];
 }
