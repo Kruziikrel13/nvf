@@ -877,6 +877,19 @@
       "url": "https://github.com/m-demare/hlargs.nvim/archive/05f3d1789642d5e1807121c05c42a5e883ba46d3.tar.gz",
       "hash": "sha256-daCx0OHqsGNasfnxHxVO2309aS8LYZIxbeaZ/pEtNFU="
     },
+    "homecoming-nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "leo-alvarenga",
+        "repo": "homecoming.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "dcb904ddacdbd4443c13cab8cad812d2ae6a6a1e",
+      "url": "https://github.com/leo-alvarenga/homecoming.nvim/archive/dcb904ddacdbd4443c13cab8cad812d2ae6a6a1e.tar.gz",
+      "hash": "sha256-ZdcF7QkwcqDpJ682oPXyl4pyAfCVrUy/Wz/GBYpg6+I="
+    },
     "hop.nvim": {
       "type": "GitRelease",
       "repository": {
