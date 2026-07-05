@@ -2808,6 +2808,19 @@
       "url": "https://github.com/rachartier/tiny-devicons-auto-colors.nvim/archive/3b0c0174f4ed9120b6bea00d77e179ed5c46dcfb.tar.gz",
       "hash": "sha256-wdcJUzE416j25Yn/V1KGjRUqVvPYWOwUyetj983/ukw="
     },
+    "tiny-glimmer-nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "rachartier",
+        "repo": "tiny-glimmer.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "f26728abf811324d7ed6b035a11d7b76a27c06c3",
+      "url": "https://github.com/rachartier/tiny-glimmer.nvim/archive/f26728abf811324d7ed6b035a11d7b76a27c06c3.tar.gz",
+      "hash": "sha256-CUxWZOoEj2kamwlhcpz0K1IR+7TfFC22RPIVj4x6TeI="
+    },
     "todo-comments-nvim": {
       "type": "Git",
       "repository": {
