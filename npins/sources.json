@@ -662,9 +662,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "237b7e7f2bd07becc83144933b6058cc15bef2dc",
-      "url": "https://github.com/ibhagwan/fzf-lua/archive/237b7e7f2bd07becc83144933b6058cc15bef2dc.tar.gz",
-      "hash": "sha256-sDONx2iFyOuSJJojJdTbRFMELT2gcsjD36iqt7LeXZA="
+      "revision": "1c91f217f394b8c5c628f9e900fc52e923c850fa",
+      "url": "https://github.com/ibhagwan/fzf-lua/archive/1c91f217f394b8c5c628f9e900fc52e923c850fa.tar.gz",
+      "hash": "sha256-Y9A1xR9q1r0PQuMuwFCSARU2QkACrurHrKK4lfF+JVk="
     },
     "gesture-nvim": {
       "type": "Git",
@@ -847,9 +847,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "91186c32f40b7de34d7bedea97a4353e44cc0888",
-      "url": "https://github.com/mrcjkb/haskell-tools.nvim/archive/91186c32f40b7de34d7bedea97a4353e44cc0888.tar.gz",
-      "hash": "sha256-eJDUBOUtXzFH8zmgV5HejKcFao6jwEoO+XmP7/2ZcJg="
+      "revision": "b2e0c52f7b499b0fbdd196e12096583910490c3b",
+      "url": "https://github.com/mrcjkb/haskell-tools.nvim/archive/b2e0c52f7b499b0fbdd196e12096583910490c3b.tar.gz",
+      "hash": "sha256-wfxB9HPhOLKRTjQnHkan1GDW56zthZ+xuVLfgdtpgLk="
     },
     "highlight-undo-nvim": {
       "type": "Git",
@@ -1117,9 +1117,9 @@
       },
       "branch": "main",
       "submodules": false,
-      "revision": "91e02f0fef81525558982e1e7440a2e20aeaacc5",
-      "url": "https://github.com/lumen-oss/lz.n/archive/91e02f0fef81525558982e1e7440a2e20aeaacc5.tar.gz",
-      "hash": "sha256-s3KJ/OBpxYK/+yk2fugjq1FYbAu5NRqc25noU85onrU="
+      "revision": "bfd420e5b0ab95245094c8b3032c140941604223",
+      "url": "https://github.com/lumen-oss/lz.n/archive/bfd420e5b0ab95245094c8b3032c140941604223.tar.gz",
+      "hash": "sha256-7vX8K6M7OvrCbLj4LRbsm00Xb8nn/OdcBX+TnP3XTMc="
     },
     "lzn-auto-require": {
       "type": "Git",
@@ -2529,14 +2529,14 @@
       "type": "Git",
       "repository": {
         "type": "GitHub",
-        "owner": "ahmedkhalf",
+        "owner": "DrKJeff16",
         "repo": "project.nvim"
       },
       "branch": "main",
       "submodules": false,
-      "revision": "8c6bad7d22eef1b71144b401c9f74ed01526a4fb",
-      "url": "https://github.com/ahmedkhalf/project.nvim/archive/8c6bad7d22eef1b71144b401c9f74ed01526a4fb.tar.gz",
-      "hash": "sha256-avV3wMiDbraxW4mqlEsKy0oeewaRj9Q33K8NzWoaptU="
+      "revision": "ad569d7b0c31e59d18bcec19a34f97190ab4811f",
+      "url": "https://github.com/DrKJeff16/project.nvim/archive/ad569d7b0c31e59d18bcec19a34f97190ab4811f.tar.gz",
+      "hash": "sha256-9LnJg960aBLe6EHFuz+TZ63+T/GUyacrGziZoYsdT+Q="
     },
     "promise-async": {
       "type": "Git",
