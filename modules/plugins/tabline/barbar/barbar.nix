@@ -12,7 +12,11 @@ in
 {
   options.vim.tabline.barbar = {
     enable = mkEnableOption "barbar";
-    persistedCompat = mkEnableOption "compatibility with persisted plugin";
+    persistedCompat = mkOption {
+      type = bool;
+      default = config.vim.session.persisted.enable;
+      description = "enable compatibility with persisted. automatically `true` when persisted is enabled";
+    };
 
     mappings = {
       closeCurrent = mkMappingOption "Close buffer" "<leader>bd";
