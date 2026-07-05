@@ -6,6 +6,6 @@ in
 {
   options.vim.dashboard.homecoming = {
     enable = mkEnableOption "homecoming dashboard";
-    setupOpts = mkPluginSetupOption { };
+    setupOpts = mkPluginSetupOption "homecoming.nvim" { };
   };
 }
