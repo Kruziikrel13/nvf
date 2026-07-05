@@ -2669,6 +2669,19 @@
       "url": "https://github.com/mrcjkb/rustaceanvim/archive/24958d97c0e2393339e59404ebe7ee687951ea24.tar.gz",
       "hash": "sha256-/oy5nmyr9HSjuwGZYdM5Bs0T68DuApjTYUua7umhijo="
     },
+    "smart-backspace": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "qwavies",
+        "repo": "smart-backspace.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "e8fd6e01f10d64a78403d6d27c9bbc746631afc1",
+      "url": "https://github.com/qwavies/smart-backspace.nvim/archive/e8fd6e01f10d64a78403d6d27c9bbc746631afc1.tar.gz",
+      "hash": "sha256-prha07RWUqXn6idq0LIoYLYhSw5AC/8mr6hB7jY2/Yw="
+    },
     "smart-splits": {
       "type": "GitRelease",
       "repository": {

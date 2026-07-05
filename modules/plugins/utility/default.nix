@@ -24,6 +24,7 @@
     ./qmk-nvim
     ./sleuth
     ./smart-splits
+    ./smart-backspace
     ./snacks-nvim
     ./surround
     ./telescope
