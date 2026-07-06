@@ -17,7 +17,7 @@ in
     ];
 
     vim.pluginRC.project-nvim = entryAnywhere ''
-      require('project_nvim').setup(${toLuaObject cfg.setupOpts})
+      require('project').setup(${toLuaObject cfg.setupOpts})
     '';
 
     vim.filetree.nvimTree.setupOpts = {
