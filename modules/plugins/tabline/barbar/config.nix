@@ -13,7 +13,7 @@ in
 {
   config = mkIf cfg.enable {
     vim = {
-      lazy.plugins.barbar-nvim = {
+      lazy.plugins.barbar = {
         package = "barbar";
         setupModule = "barbar";
         inherit (cfg) setupOpts;
