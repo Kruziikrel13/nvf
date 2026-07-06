@@ -1,5 +1,6 @@
 {
   config,
+  options,
   lib,
   pkgs,
   ...
@@ -26,6 +27,7 @@ let
   };
 
   cfg = config.vim.terminal.ergoterm;
+  mappings = options.vim.terminal.ergoterm.mappings;
 in
 {
   config = mkIf cfg.enable {
@@ -72,16 +74,21 @@ in
         ''}
       '';
       keys = [
-        (mkKeymap [ "x" "n" "t" ] cfg.mappings.open "require('ergoterm').get_by_name('default'):toggle()" {
-          desc = cfg.mappings.open.description;
-          lua = true;
-        })
-
-        (mkIf cfg.lazygitIntegration (
-          mkKeymap [ "x" "n" "t" ] cfg.mappings.lazygit "require('ergoterm').get_by_name('git'):toggle" {
-            desc = cfg.mappings.lazygit.description;
+        (mkKeymap [ "x" "n" "t" ] cfg.mappings.open
+          "function() require('ergoterm').get_by_name('default'):toggle() end"
+          {
+            desc = mappings.open.description;
             lua = true;
           }
+        )
+
+        (mkIf cfg.lazygitIntegration (
+          mkKeymap [ "x" "n" "t" ] cfg.mappings.lazygit
+            "function() require('ergoterm').get_by_name('git'):toggle() end"
+            {
+              desc = mappings.lazygit.description;
+              lua = true;
+            }
         ))
       ];
     };
