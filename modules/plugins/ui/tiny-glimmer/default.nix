@@ -1,6 +1,6 @@
 {
   imports = [
     ./config.nix
-    ./glimmer.nix
+    ./tiny-glimmer.nix
   ];
 }

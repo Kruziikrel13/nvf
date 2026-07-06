@@ -4,6 +4,7 @@
     ./breadcrumbs
     ./colorful-menu-nvim
     ./nvim-highlight-colors
+    ./tiny-glimmer
     ./colorizer
     ./fastaction
     ./illuminate

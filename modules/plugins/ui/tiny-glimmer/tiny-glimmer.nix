@@ -101,21 +101,21 @@ in
             default = "fade";
           };
         };
+      };
 
-        presets.pulsar.enabled = mkOption {
-          type = bool;
-          default = false;
-          example = true;
-        };
+      presets.pulsar.enabled = mkOption {
+        type = bool;
+        default = false;
+        example = true;
+      };
 
-        hijack_ft_disabled = mkOption {
-          type = listOf str;
-          default = [
-            "alpha"
-            "snacks_dashboard"
-          ];
-          example = [ "dashboard" ];
-        };
+      hijack_ft_disabled = mkOption {
+        type = listOf str;
+        default = [
+          "alpha"
+          "snacks_dashboard"
+        ];
+        example = [ "dashboard" ];
       };
     };
   };

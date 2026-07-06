@@ -10,7 +10,7 @@ let
 in
 {
   config = mkIf cfg.enable {
-    vim.lazy.plugins.tiny-glimmer = {
+    vim.lazy.plugins.tiny-glimmer-nvim = {
       package = "tiny-glimmer-nvim";
       setupModule = "tiny-glimmer";
       inherit (cfg) setupOpts;
