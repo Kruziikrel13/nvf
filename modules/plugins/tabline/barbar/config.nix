@@ -1,5 +1,6 @@
 {
   config,
+  options,
   lib,
   ...
 }:
@@ -9,6 +10,7 @@ let
   inherit (lib.generators) mkLuaInline;
 
   cfg = config.vim.tabline.barbar;
+  mappings = options.vim.tabline.barbar.mappings;
 in
 {
   config = mkIf cfg.enable {
@@ -20,37 +22,37 @@ in
 
         keys = [
           (mkKeymap "n" cfg.mappings.closeCurrent "<CMD>BufferClose<CR>" {
-            desc = cfg.mappings.closeCurrent.description;
+            desc = mappings.closeCurrent.description;
             silent = true;
             noremap = false;
           })
           (mkKeymap "n" cfg.mappings.cycleNext "<CMD>BufferNext<CR>" {
-            desc = cfg.mappings.cycleNext.description;
+            desc = mappings.cycleNext.description;
             silent = true;
             noremap = false;
           })
           (mkKeymap "n" cfg.mappings.cyclePrevious "<CMD>BufferPrevious<CR>" {
-            desc = cfg.mappings.cyclePrevious.description;
+            desc = mappings.cyclePrevious.description;
             silent = true;
             noremap = false;
           })
           (mkKeymap "n" cfg.mappings.sortByLanguage "<CMD>BufferOrderByLanguage<CR>" {
-            desc = cfg.mappings.sortByLanguage.description;
+            desc = mappings.sortByLanguage.description;
             silent = true;
             noremap = false;
           })
           (mkKeymap "n" cfg.mappings.sortByDirectory "<CMD>BufferOrderByDirectory<CR>" {
-            desc = cfg.mappings.sortByDirectory.description;
+            desc = mappings.sortByDirectory.description;
             silent = true;
             noremap = false;
           })
           (mkKeymap "n" cfg.mappings.sortById "<CMD>BufferOrderByBufferNumber<CR>" {
-            desc = cfg.mappings.sortById.description;
+            desc = mappings.sortById.description;
             silent = true;
             noremap = false;
           })
           (mkKeymap "n" cfg.mappings.closeAllButVisible "<CMD>BufferCloseAllButVisible<CR>" {
-            desc = cfg.mappings.closeAllButVisible.description;
+            desc = mappings.closeAllButVisible.description;
             silent = true;
             noremap = false;
           })
